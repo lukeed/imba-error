@@ -15,8 +15,8 @@
     "extend"
   ],
   "scripts": {
-    "build": "imba compile index.imba -o dist/",
     "tape": "tape test/*.js",
+    "pretest": "imba compile src/ && imba compile test/",
     "test": "npm run tape | tspec"
   },
   "author": {
