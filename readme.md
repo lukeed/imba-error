@@ -1,6 +1,10 @@
 # Imba Error
 > Easily extend the native `Error` for custom use within Imba
 
+[![npm package][npm-ver-link]][releases]
+[![][dl-badge]][npm-pkg-link]
+[![][travis-badge]][travis-link]
+
 ## Installation
 
 ```
