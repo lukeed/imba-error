@@ -32,6 +32,7 @@ throw CustomError.new "Hey! Don't do that!"
 #### message
 
 Type: `string`
+
 Default: `''`
 
 The message to throw
