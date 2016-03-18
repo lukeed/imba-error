@@ -1,4 +1,4 @@
-export class Errorable < Error
+class Errorable < Error
 	def initialize msg = ''
 		super msg
 
@@ -9,3 +9,6 @@ export class Errorable < Error
 			Error.captureStackTrace(self, self:constructor)
 		else
 			self:stack = (Error.new msg):stack
+
+module:exports = Errorable
+export var Errorable = Errorable

@@ -4,9 +4,9 @@
   "description": "Easily extend the native Error for use within Imba",
   "license": "MIT",
   "repository": "https://github.com/lukeed/imba-error",
-  "main": "index.imba",
+  "main": "src/index.imba",
   "files": [
-    "index.imba"
+    "src/index.imba"
   ],
   "keywords": [
     "imba",
