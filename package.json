@@ -1,7 +1,7 @@
 {
   "name": "imba-error",
   "version": "0.0.0",
-  "description": "Easily extend the native Error for use within Imba",
+  "description": "Easily extend the native Error for custom use within Imba",
   "license": "MIT",
   "repository": "https://github.com/lukeed/imba-error",
   "main": "src/index.imba",
